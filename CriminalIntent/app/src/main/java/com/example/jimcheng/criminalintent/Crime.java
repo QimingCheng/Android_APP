@@ -45,7 +45,7 @@ public class Crime {
         this.mSolved = mSolved;
     }
 
-    private Crime() {
+    public Crime() {
         mId = UUID.randomUUID();
         mDate = new Date();
     }
